@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "cpu",
+    "gpu",
+    "motherboard",
+    "ram",
+    "storage",
+    "psu",
+    "case",
+    "cooling"
+  ],
+  "components": {
+    "cpu": [
+      {
+        "name": "AMD Ryzen 7 7700X",
+        "price": 4290,
+        "old_price": 4790,
+        "socket": "AM5",
+        "tdp_watts": 105,
+        "recommended_psu_watts": 650,
+        "photo_url": "https://picsum.photos/seed/cpu-amd-1/900/600"
+      },
+      {
+        "name": "Intel Core i7-13700F",
+        "price": 4690,
+        "old_price": 5290,
+        "socket": "LGA1700",
+        "tdp_watts": 125,
+        "recommended_psu_watts": 700,
+        "photo_url": "https://picsum.photos/seed/cpu-intel-1/900/600"
+      },
+      {
+        "name": "AMD Ryzen 5 7600",
+        "price": 2990,
+        "old_price": 3490,
+        "socket": "AM5",
+        "tdp_watts": 65,
+        "recommended_psu_watts": 550,
+        "photo_url": "https://picsum.photos/seed/cpu-amd-2/900/600"
+      }
+    ]
+  },
+  "compatibility_rules": {
+    "cpu_motherboard_socket_match": true,
+    "ram_type_match": true,
+    "psu_power_must_be_enough": true,
+    "case_must_fit_gpu_and_motherboard": true
+  }
+}
